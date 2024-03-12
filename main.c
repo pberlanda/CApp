@@ -12,7 +12,7 @@ int main()
     printf("Inserisci un altro numero\n");
     scanf("%d", &b);
 
-    // calcla la somma e la visualizza
+    // calcola la somma e la visualizza
     c = a + b;
 
     printf("La somma di %d e %d e' %d\n", a, b, c);
@@ -27,6 +27,18 @@ int main()
 
     // operatore ternario
     (a % b == 0) ? (puts("Pari")) : (puts("Dispari"));
+
+    // test ciclo while
+
+    int k = 0;
+
+    while (k <= 100) {
+
+        (k == 50) ? (printf("Ciao, sono il 50!\n")) : (printf("%d\n", k));
+
+        k++;
+
+    }
 
     return 0;
 }
