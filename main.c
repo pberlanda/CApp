@@ -25,5 +25,8 @@ int main()
         puts("La somma è dispari");
     }
 
+    // operatore ternario
+    (a % b == 0) ? (puts("Pari")) : (puts("Dispari"));
+
     return 0;
 }
