@@ -32,9 +32,9 @@ int main()
 
     int k = 0;
 
-    while (k <= 100) {
+    while (k <= 10) {
 
-        (k == 50) ? (printf("Ciao, sono il 50!\n")) : (printf("%d\n", k));
+        (k == 5) ? (printf("Ciao, sono il 50!\n")) : (printf("%d\n", k));
 
         k++;
 
