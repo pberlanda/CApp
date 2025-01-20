@@ -17,12 +17,12 @@ int main()
 
     printf("La somma di %d e %d e' %d\n", a, b, c);
 
-    // scrive se la somma è pari o dispari
+    // scrive se la somma ï¿½ pari o dispari
 
     if (a % b == 0) {
-        puts("La somma è pari");
+        puts("La somma Ã¨ pari");
     } else {
-        puts("La somma è dispari");
+        puts("La somma Ã¨ dispari");
     }
 
     // operatore ternario
